@@ -1,0 +1,19 @@
+# Ignore artifacts:
+build
+coverage
+.github
+.next
+
+# Ignore utils:
+pnpm-lock.yaml
+package.json
+next-env.d.ts
+.eslintrc.json
+.prettierrc.json
+
+
+# Ignore misc:
+README.md
+tailwind.config.ts
+*.config.mjs
+tsconfig.json
