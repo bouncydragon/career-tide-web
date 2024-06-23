@@ -1,6 +1,11 @@
+import Image from 'next/image';
+
 export default function JobCard() {
   return (
-    <div className='bg-white p-4 rounded-lg shadow-sm'>
+    <div className='bg-white p-4 rounded-lg shadow-sm relative'>
+      <div className='absolute top-4 right-3 cursor-pointer'>
+        <Image src='/images/bookmark-base.svg' alt='bookmark-icon' width={18} height={18} />
+      </div>
       <div className='flex grow gap-4'>
         <div className='content-center'>
           <img
