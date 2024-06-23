@@ -6,8 +6,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Career Tide Application',
-  description: 'A list of jobs for all careers!',
+  title: 'Job Wave Application',
+  description: 'A list of all jobs!',
 };
 
 export default function RootLayout({
@@ -18,10 +18,8 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={inter.className}>
-        <main className='py-4 px-6 container mx-auto'>
-          <Header />
-          {children}
-        </main>
+        <Header />
+        {children}
       </body>
     </html>
   );
