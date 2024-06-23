@@ -1,4 +1,4 @@
-export default function Hero() {
+export default function Index() {
   return (
     <section className='container py-12'>
       <h1 className='text-4xl font-bold text-center'>Find your next job!</h1>

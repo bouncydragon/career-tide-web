@@ -1,6 +1,6 @@
 import JobCard from '@/app/components/JobCard';
 
-export default function Jobs() {
+export default function Hero() {
   return (
     <div className='bg-slate-200 py-4 rounded-xl'>
       <div className='container'>
